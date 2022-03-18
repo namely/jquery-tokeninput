@@ -1,5 +1,7 @@
-jQuery Tokeninput: A Tokenizing Autocomplete Text Entry
-=======================================================
+# jQuery Tokeninput: A Tokenizing Autocomplete Text Entry
+ 
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/1e17a5bdfe274c9a86d1545b90b8296e)](https://app.codacy.com/gh/namely/jquery-tokeninput/dashboard)
+[![Codacy Badge](https://app.codacy.com/project/badge/Coverage/1e17a5bdfe274c9a86d1545b90b8296e)](https://app.codacy.com/gh/namely/jquery-tokeninput/dashboard)
 
 Overview
 --------
