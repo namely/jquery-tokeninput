@@ -783,9 +783,9 @@ $.TokenList = function (input, url_or_data, settings) {
         dropdown
             .css({
                 position: "absolute",
-                top: $(token_list).offset().top + $(token_list).height(),
-                left: $(token_list).offset().left,
-                width: $(token_list).width(),
+                top: `${$(token_list).offset().top + $(token_list).height()}px`,
+                left: `${$(token_list).offset().left}px`,
+                width: `${$(token_list).width()}px`,
                 'z-index': $(input).data("settings").zindex
             })
             .show();
