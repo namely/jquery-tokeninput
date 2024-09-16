@@ -832,7 +832,7 @@ $.TokenList = function (input, url_or_data, settings) {
             dropdown.empty();
             var dropdown_ul = $("<ul>")
                 .appendTo(dropdown)
-                on("mouseover", function (event) {
+                .on("mouseover", function (event) {
                     select_dropdown_item($(event.target).closest("li"));
                 })
                 .on("mousedown", function (event) {
@@ -1004,7 +1004,7 @@ $.TokenList = function (input, url_or_data, settings) {
     //
     // obj: a jQuery object to focus()
     function focus_with_timeout(obj) {
-        setTimeout(function() { obj.focus(); }, 50);
+        setTimeout(function() { obj.trigger('focus'); }, 50);
     }
 
 };
